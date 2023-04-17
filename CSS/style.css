@@ -81,7 +81,7 @@ nav{
 }
 .container .top-pic img{
     width: 100%;
-    border: 3px solid #23282d;
+    border: 3px solid #f0f0f0;
     padding: 10px;
     border-radius: 10px 0 10px 0;
 }
@@ -93,7 +93,7 @@ nav{
     align-items: center;
     max-width: 600px;
     margin-left: 10px;
-    color: #191919;
+    color: #f0f0f0;
 }
 .top-text p, h1 {
     color: #f0f0f0;
@@ -145,7 +145,7 @@ nav{
     align-items: center;
     text-align: center;
     justify-content: center;
-    background: #20283e;
+    background: #16a08f;
     width: 185px;
     margin: 20px auto;
     padding: 5px 20px;
@@ -315,6 +315,7 @@ nav{
             font-size: 0.65rem;
             width: 100px;
             border-radius: 10px;
+            color: #f0f0f0;
         }
         .forth-page
         {
@@ -329,7 +330,10 @@ nav{
             text-align: center;
             margin-bottom: 10px;
         }
-
+        .second-page h1
+        {
+          padding: 15px;
+        }
 
     }
 
@@ -354,7 +358,7 @@ nav{
         }
         .top-text p, h1
         {
-            color: #20283e;
+            color: #f0f0f0;
         }
         .contents
         {
@@ -573,8 +577,8 @@ form{
     width: 100px;
     background: #191919;
     border: none;
-    padding: 20px;
+    padding: 15px;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
