@@ -663,3 +663,10 @@ form{
     border-radius: 5px;
     font-size: 1rem;
 }
+
+#send:hover
+{
+  background: #000000;
+  border-radius: 0;
+  transition: 0.4s;
+}
