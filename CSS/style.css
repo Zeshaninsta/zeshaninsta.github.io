@@ -194,7 +194,8 @@ nav{
     justify-content: center;
     align-items: center;
     margin: 10px auto;
-    width: 80%
+    width: 100%;
+    list-style: circle;
 }
 .about,.thought,.vision{
     display: flex;
@@ -204,10 +205,13 @@ nav{
     flex-direction: column;
     border: 2px solid #f0f0f0;
     padding: 20px;
+    list-style: circle;
     text-align: center;
+    /* width: 30%; */
 }
-.forth-page p,h1{
+.forth-page h1 ul li{
     color: #f0f0f0;
+    list-style: circle;
 }
 
 .video{
@@ -355,7 +359,7 @@ nav{
             width: 80%;
             margin: 10px auto;
         }
-        .video h2,p {
+        .video h2,p,h1 {
             font-size: 1rem;
             text-align: center;
             margin-bottom: 10px;
