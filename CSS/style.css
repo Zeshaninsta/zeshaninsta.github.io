@@ -498,6 +498,7 @@ nav{
         align-items: center;
         background: #191919;
         padding: 20px;
+        margin: auto;
       }
       .urji img
       {
@@ -540,17 +541,55 @@ nav{
     text-align: center;
     width: 400px;
       }
+      .about-us p{
+        font-size: 10px;
+        font-weight: normal;
+      }
+      .contact p{
+        font-size: 10px;
+        font-weight: normal;
+      }
       .social
       {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
         margin: 0 10px;
         flex-direction: column;
         padding: 15px;
         text-align: center;
+        /* width: 500px; */
       }
-
+      .social img{
+        width: 20px;
+      }
+      .social h1{
+        margin-bottom: 10px;
+      }
+      .links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+      }
+      .facebook{
+        display: flex;
+        flex-direction: column;
+      }
+      .Telegram{
+        display: flex;
+        flex-direction: column;
+      }
+      .youtube{
+        display: flex;
+        flex-direction: column;
+      }
+      .links a{
+        font-size: 10px;
+        font-weight: normal;
+        text-transform: capitalize;
+      }
 
 
 
