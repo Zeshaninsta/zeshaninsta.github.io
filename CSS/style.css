@@ -19,8 +19,10 @@ body{
   border: none;
   background: #16a08f;
   padding: 10px;
+  border-radius: 5px;
   cursor: pointer;
   font-size: 13px;
+  color: #fff;
 }
 #Button:hover
 {
@@ -196,6 +198,7 @@ nav{
     margin: 10px auto;
     width: 100%;
     list-style: circle;
+    flex-grow: 1;
 }
 .about,.thought,.vision{
     display: flex;
@@ -203,17 +206,21 @@ nav{
     align-items: center;
     margin: 10px 20px;
     flex-direction: column;
-    border: 2px solid #f0f0f0;
+    border: 2px solid #ffffff;
     padding: 20px;
     list-style: circle;
     text-align: center;
+    border-color: #fff;
     /* width: 30%; */
 }
 .forth-page h1 ul li{
     color: #f0f0f0;
     list-style: circle;
 }
-
+.boxes
+{
+  flex-grow: 1;
+}
 .video{
     display: flex;
     justify-content: center;

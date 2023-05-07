@@ -36,7 +36,7 @@
             <img src="images/Asset/1.jpg" alt="First pic">
         </div>
         <div class="top-text">
-            <h1>Urji Orphange Organization</h1>
+            <h1>Urji Orphanage Organization</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit similique labore unde. Ullam dicta distinctio corporis cumque soluta vitae molestias consequuntur quo, dolorum mollitia nihil tenetur quasi asperiores, id nostrum maiores magni harum sunt ducimus facilis. 
                 Earum unde, nemo aut neque esse repudiandae magnam perspiciatis totam ducimus molestias quaerat dicta id sed provident, similique eius veniam blanditiis itaque fugiat voluptas, soluta molestiae. Dolorum labore odio aperiam vero illo officiis veritatis soluta quidem. 
                 Velit nemo commodi reiciendis corrupti officiis asperiores atque doloribus quaerat beatae ipsum nam ab laudantium quia expedita amet fugit sequi et, 
@@ -67,6 +67,7 @@
         <a href="#" id="Button">Learn More</a>
     </div>
     <div class="forth-page">
+        <div class="boxes">
         <div class="about">
             <h1>Ergama</h1>
            <ul>
@@ -87,12 +88,13 @@
             <li>Akka Guutuu Addunyatti (Global Sustainable Development Goals 2030) Qabame Galmaan Gahuuf Dhabbatichi Sadarkaa Biyyaa fi Dhuunfatti Gadi Bu'uun Xiyyeffannon Kan Hojjatudha</li>
         </ul>
     </div>
-    </div>
     <div class="vision">
         <h1>Itti Gaafatamummaa</h1>
         <ul>
             <li>Walitti Dhufeenya Hawasummaa Ilaalchisee Itti Gafatamummaa Hawasumma Qabu Keessaa Tokko Harka Qalleyyif Tola Ooltummaa Kennufi Haqa Ooltummaan Eegudha </li>
         </ul>
+    </div>
+</div>
     </div>
     <div class="video">
         <!-- <h2>Gargaarsa Meeshaalee Barnoota Warroota Harka Qalleeyif Godhame</h2> -->
@@ -158,33 +160,7 @@
         </div>
         </div>
     </footer>
-    <script>
-        humbarger = document.querySelector(".humbarger");
-        humbarger.onclick = function(){
-
-         navBar = document.querySelector(".navigation");
-        navBar.classList.toggle("active");
-}
-    </script>
     <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script>
-        function sendEmail(){
-            Email.send({
-                SecureToken:" 716be483-daeb-4174-bd1a-cc0edfcc6be7",
-    Host : "smtp.elasticemail.com",
-    Username : "zeshaninsta@gmail.com",
-    Password : "81D5D33FC22FA7572CCF9554D0D1D9021287",
-    To : 'imranmyk1821@gmail.com',
-    From : "zeshaninsta@gmail.com",
-    ReplyTo : document.getElementById("email").value,
-    Subject : "New Email Request",
-    Body : "Name: " + document.getElementById("name").value + "<br> Email:" + document.getElementById("email").value + "<br> Message:" + 
-    document.getElementById("textarea").value
-}).then(
-  message =>  alert("Your Message is sent succssfully")
- 
-);
-        }
-    </script>
+    <script src="SCRIPT/script.js"></script>
 </body>
 </html>
