@@ -216,9 +216,12 @@ nav{
 .forth-page h1 ul li{
     color: #f0f0f0;
     list-style: circle;
+    align-items: flex-start;
 }
 .boxes
 {
+  display: flex;
+  width: 30%;
   flex-grow: 1;
 }
 .video{
